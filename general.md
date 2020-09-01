@@ -2,6 +2,12 @@
 
 <details>
   <summary>Какие типы данных есть в Javascript?</summary>
+Примитивы:
+* undefined
+* boolean
+  * string
+
+
   <p>
     Примитивы:
     <ul>
