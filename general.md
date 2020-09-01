@@ -34,8 +34,7 @@
 </details>
 
 
-##### Что такое `undeclared` и `undefined` переменные?
-
+#### Что такое `undeclared` и `undefined` переменные?
 <details>
   <summary><b>Ответ</b></summary>
   <p>
