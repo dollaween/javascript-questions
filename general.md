@@ -7,6 +7,11 @@
 * boolean
   * string
 
+  <p>
+    ${undefined}
+    ```undefined```
+    <pre>undefined</pre>
+  </p>
 
   <p>
     Примитивы:
