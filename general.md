@@ -2,23 +2,21 @@
 
 <details>
   <summary>Какие типы данных есть в Javascript?</summary>
+  <p>
+
 Примитивы:
-* undefined
-* boolean
-  * string
+* `undefined`
+* `boolean`
+* `number`
+* `string`
+* `bigint`
+* `symbol`
 
-  <p>
-    ${undefined}
-    ```undefined```
-    <pre>undefined</pre>
-  </p>
+Сложные:
+* `null`
+* `object`
+* `function`
 
-  <p>
-    Примитивы:
-    <ul>
-      <li>undefined</li>
-      <li>`boolean`</li>
-    </ul>
   </p>
 </details>
 
