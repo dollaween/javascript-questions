@@ -12,11 +12,42 @@
 * `bigint`
 * `symbol`
 
-
 Сложные:
 * `null`
 * `object`
 * `function`
+
+  </p>
+</details>
+
+<details>
+  <summary><b>Какие типы данных есть в Javascript?</b></summary>
+  <p>
+
+    Примитивы:
+    * `undefined`
+    * `boolean`
+    * `number`
+    * `string`
+    * `bigint`
+    * `symbol`
+
+    Сложные:
+    * `null`
+    * `object`
+    * `function`
+
+  </p>
+</details>
+
+
+
+<details>
+  <summary><b>Что такое `undeclared` и ${`undefined`} переменные?</b></summary>
+  <p>
+
+`undeclared` — переменные, которых не существует в программе и не объявлены.
+`undefined` — объявленные переменные, которым не присвоено значение.
 
   </p>
 </details>
