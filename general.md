@@ -1,7 +1,10 @@
 # Javascript-вопросы: Общее
 
+---
+
+##### 1. Какие типы данных есть в Javascript?
 <details>
-  <summary><b>Какие типы данных есть в Javascript?</b></summary>
+  <summary><b>Ответ</b></summary>
   <p>
 
 Примитивы:
@@ -20,36 +23,9 @@
   </p>
 </details>
 
-
-
-<details>
-  <summary><b>Что такое <pre>`undeclared`</pre> и ${`undefined`} переменные?</b></summary>
-  <p>
-
-`undeclared` — переменные, которых не существует в программе и не объявлены.
-
-`undefined` — объявленные переменные, которым не присвоено значение.
-
-  </p>
-</details>
-
---- 
-
-#### Что такое `undeclared` и `undefined` переменные?
-<details>
-  <summary><b>Ответ</b></summary>
-  <p>
-
-`undeclared` — переменные, которых не существует в программе и не объявлены.
-
-`undefined` — объявленные переменные, которым не присвоено значение.
-
-  </p>
-</details>
-
 ---
 
-#### Что такое `undeclared` и `undefined` переменные?
+##### 2. Что такое `undeclared` и `undefined` переменные?
 <details>
   <summary><b>Ответ</b></summary>
   <p>
@@ -61,16 +37,4 @@
   </p>
 </details>
 
----
 
-##### Что такое `undeclared` и `undefined` переменные?
-<details>
-  <summary><b>Ответ</b></summary>
-  <p>
-
-`undeclared` — переменные, которых не существует в программе и не объявлены.
-
-`undefined` — объявленные переменные, которым не присвоено значение.
-
-  </p>
-</details>
