@@ -33,8 +33,37 @@
   </p>
 </details>
 
+--- 
 
 #### Что такое `undeclared` и `undefined` переменные?
+<details>
+  <summary><b>Ответ</b></summary>
+  <p>
+
+`undeclared` — переменные, которых не существует в программе и не объявлены.
+
+`undefined` — объявленные переменные, которым не присвоено значение.
+
+  </p>
+</details>
+
+---
+
+#### Что такое `undeclared` и `undefined` переменные?
+<details>
+  <summary><b>Ответ</b></summary>
+  <p>
+
+`undeclared` — переменные, которых не существует в программе и не объявлены.
+
+`undefined` — объявленные переменные, которым не присвоено значение.
+
+  </p>
+</details>
+
+---
+
+##### Что такое `undeclared` и `undefined` переменные?
 <details>
   <summary><b>Ответ</b></summary>
   <p>
