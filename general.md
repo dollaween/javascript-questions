@@ -332,6 +332,9 @@ button.click()
 
 Решение проблемы: использовать `stopPropagation`
 
+Пример взят из:
+[Иван Тулуп: асинхронщина в JS под капотом](https://habr.com/ru/company/oleg-bunin/blog/417461)
+
 </p>
 </details>
 
