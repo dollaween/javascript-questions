@@ -309,7 +309,7 @@ container.addEventListener('click', () => {
 })
 ```
 
-У нас есть кнопка `button`, вложенная в контейнер `container`.
+У нас есть кнопка `button`, вложенная в div `container`.
 
 При клике на `button` в консоль будет выведено по очереди: `FUS`, `RO`, `DAH`.
 
