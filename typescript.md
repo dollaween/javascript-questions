@@ -53,3 +53,28 @@ const elem = document.getElementById('root') as HTMLElement
 </details>
 
 ---
+
+##### Что такое утиная типизация и как она работает?
+
+<details><summary><b>Ответ</b></summary>
+<p>
+
+**Утиная типизация** — объявление переменных без указания типов, при этом Typescript автоматически проставит тип, основываясь на присваиваемом значении.
+
+```typescript
+let name = 'Liu Kang'
+
+// Объявление переменной name выше равносильно:
+let name: typeof 'Liu Kang' = 'Liu Kang'
+``` 
+
+В примере ниже `fighters` будет иметь два обязательных поля: `name` и `age`
+```typescript
+const fighters = {
+  name: 'Sonya',
+  age: 47
+}
+```
+
+</p>
+</details>
