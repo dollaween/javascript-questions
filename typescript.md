@@ -64,13 +64,13 @@ const elem = document.getElementById('root') as HTMLElement
 ```typescript
 let name = 'Liu Kang'
 
-// Объявление переменной name выше равносильно:
-let name: typeof 'Liu Kang' = 'Liu Kang'
+// Объявлению переменной name будет автоматически присвоен тип string
+let name: string = 'Liu Kang'
 ``` 
 
 В примере ниже `fighters` будет иметь два обязательных поля: `name` и `age`
 ```typescript
-const fighters = {
+let fighters = {
   name: 'Sonya',
   age: 47
 }
