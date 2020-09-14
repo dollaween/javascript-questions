@@ -81,18 +81,19 @@ let fighters = {
 
 ---
 
-##### Что такое `mapped types`? Приведите примеры
+##### Что такое **mapped types**? Приведите примеры
 
 <details><summary><b>Ответ</b></summary>
 <p>
 
-`Mapped types` — заготовленные типы в Typescript.
+**Mapped types** — заготовленные типы в Typescript.
 
 * `Partial<T>` — делает все свойства в типе `T` опциональными
 * `Readonly<T>` — делает все свойства в типе `T` `readonly`
 * `Pick<T, K extends keyof T>` — выбирает из типа `T` указанные свойства `K`
 * `Record<K extends string, T>` — переданным свойствам `K` будет присвоен тип `T`
 
+***** Пример `Pick`
 ```typescript
 interface Human {
   id?: number;
@@ -110,6 +111,7 @@ type User = {
 }
 ```
 
+***** Пример `Record`
 ```typescript
 type ThreeDogProps = Record<'prop1' | 'prop2' | 'prop3', Dog>
 
