@@ -37,3 +37,19 @@ let tuple: [string, number]: ['Cassie', 23]
 </details>
 
 ---
+
+##### Как работает оператор `as`?
+
+<details><summary><b>Ответ</b></summary>
+<p>
+
+`as` — assertion operator (утверждение типов), явно указывает, какой тип ожидаем получить.
+
+```typescript
+const elem = document.getElementById('root') as HTMLElement
+```
+
+</p>
+</details>
+
+---
