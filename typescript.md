@@ -93,7 +93,7 @@ let fighters = {
 * `Pick<T, K extends keyof T>` — выбирает из типа `T` указанные свойства `K`
 * `Record<K extends string, T>` — переданным свойствам `K` будет присвоен тип `T`
 
-***** Пример `Pick`
+##### Пример `Pick`
 ```typescript
 interface Human {
   id?: number;
@@ -111,7 +111,7 @@ type User = {
 }
 ```
 
-***** Пример `Record`
+##### Пример `Record`
 ```typescript
 type ThreeDogProps = Record<'prop1' | 'prop2' | 'prop3', Dog>
 
