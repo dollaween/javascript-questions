@@ -54,12 +54,34 @@ const elem = document.getElementById('root') as HTMLElement
 
 ---
 
+##### Как работает оператор `typeof`?
+
+<details><summary><b>Ответ</b></summary>
+<p>
+
+Оператор `typeof` захватывает тип следующего за ним идентификатора.
+
+```typescript
+let rectangle1 = { width: 100, height: 50 }
+let rectangle2: typeof rectangle1
+
+/**
+  Теперь rectangle2 будет иметь тип { width: number, height: number }
+*/ 
+```
+
+</p>
+</details>
+
+---
+
 ##### Что такое утиная типизация и как она работает?
 
 <details><summary><b>Ответ</b></summary>
 <p>
 
-**Утиная типизация** — объявление переменных без указания типов, при этом Typescript автоматически проставит тип, основываясь на присваиваемом значении.
+**Утиная типизация** — объявление переменных без указания типов,
+при этом Typescript автоматически проставит тип, основываясь на присваиваемом значении.
 
 ```typescript
 let name = 'Liu Kang'
