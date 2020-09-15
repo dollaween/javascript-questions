@@ -61,6 +61,8 @@ const elem = document.getElementById('root') as HTMLElement
 
 Оператор `typeof` захватывает тип следующего за ним идентификатора.
 
+`typeof` не захватывает тип, объявленный через `type` и `interface`.
+
 ```typescript
 let rectangle1 = {
   width: 100,
