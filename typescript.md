@@ -62,11 +62,27 @@ const elem = document.getElementById('root') as HTMLElement
 Оператор `typeof` захватывает тип следующего за ним идентификатора.
 
 ```typescript
-let rectangle1 = { width: 100, height: 50 }
+let rectangle1 = {
+  width: 100,
+  height: 50,
+  colors: ['black', 'grey'],
+  info: {
+    created: new Date()
+  }
+}
+
 let rectangle2: typeof rectangle1
 
 /**
-  Теперь rectangle2 будет иметь тип { width: number, height: number }
+  Теперь rectangle2 будет иметь тип:
+  {
+    width: number,
+    height: number,
+    colors: string[],
+    info: {
+      created: Date
+    }
+  }
 */ 
 ```
 

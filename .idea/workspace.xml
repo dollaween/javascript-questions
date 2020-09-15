@@ -45,7 +45,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Test Projects/typescript" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -59,7 +59,7 @@
       <updated>1600113317723</updated>
       <workItem from="1600113318774" duration="4203000" />
       <workItem from="1600153161468" duration="31000" />
-      <workItem from="1600163814949" duration="2115000" />
+      <workItem from="1600163814949" duration="2456000" />
     </task>
     <servers />
   </component>
@@ -83,10 +83,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="191" y="146" key="#Live_Templates/0.0.1920.1040@0.0.1920.1040" timestamp="1600113522875" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1600153190676">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1600166048812">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600153190676" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600166048812" />
     <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1600113450352">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
