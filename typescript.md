@@ -14,13 +14,13 @@
 * String
 * Symbol
 * Array
+* Null
+* Undefined
 * Tuple
 * Enum
 * Unknown
 * Any
 * Void
-* Null
-* Undefined
 * Never
 * Object
 
@@ -29,8 +29,44 @@ let bool: boolean = false
 let num: number = 25
 let big: bigint = 100n
 let str: string = 'hello'
-let list: number[] = [1, 2, 3]
-let tuple: [string, number]: ['Cassie', 23]
+let sym: unique symbol = Symbol('key')
+let arr: number[] = [1, 2, 3]
+let nill: null = null
+let und: undefined = undefined
+let tuple: [string, number] = ['Cassie', 23]
+
+enum Size {
+  S = 42,
+  M = 48,
+  L = 52
+}
+
+// Unknown — можно присваивать любые значения, но нельзя обращаться к свойствам и их вызывать
+let unk: unknown = {}
+unk = { a: 1 }
+unk = () => {}
+unk.a = 1                   // Ошибка!
+
+// Any — можно присвоить любое значение
+let anyType: any = {}
+anyType.a = 1
+anyType.a = 'string'
+anyType.a()
+
+// Void — используется для обозначения, что функция ничего не возвращает
+function returnNothing(): void {}
+
+// Never — тип, обозначающий что значения никогда не будет или что функция никогда не вернет значение.
+// Используется для бесконечных циклов, зацикленных функций или прерываемых функций (например, ошибкой)
+function error(): never {
+  throw new Error()
+}
+
+// Object — можно присвоить любые объекты, но нельзя обратиться к свойствам
+let obj: object = {}
+obj = { a: 1 }
+obj.a = 1               // Ошибка
+obj.a()                 // Ошибка
 ```
 
 </p>
@@ -59,7 +95,7 @@ const elem = document.getElementById('root') as HTMLElement
 <details><summary><b>Ответ</b></summary>
 <p>
 
-Оператор `typeof` захватывает тип следующего за ним идентификатора.
+Оператор `typeof` декларирует тип следующего за ним идентификатора.
 
 `typeof` не захватывает тип, объявленный через `type` и `interface`.
 
