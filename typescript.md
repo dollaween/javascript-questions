@@ -33,7 +33,7 @@ let sym: unique symbol = Symbol('key')
 let arr: number[] = [1, 2, 3]
 let nill: null = null
 let und: undefined = undefined
-let tuple: [string, number] = ['Cassie', 23]
+let tuple: [string, number] = ['John', 23]
 
 enum Size {
   S = 42,
@@ -65,8 +65,8 @@ function error(): never {
 // Object — можно присвоить любые объекты, но нельзя обратиться к свойствам
 let obj: object = {}
 obj = { a: 1 }
-obj.a = 1               // Ошибка
-obj.a()                 // Ошибка
+obj.a = 1                   // Ошибка!
+obj.a()                     // Ошибка!
 ```
 
 </p>
@@ -122,6 +122,46 @@ let rectangle2: typeof rectangle1
     }
   }
 */ 
+```
+
+</p>
+</details>
+
+---
+
+##### Как работает оператор `keyof` и `in keyof`?
+
+<details><summary><b>Ответ</b></summary>
+<p>
+
+Оператор `keyof` предоставляет доступ ко всем именам свойств в идентификаторе. `keyof` похож на `Object.keys`
+
+```typescript
+type Options = {
+  url: string,
+  token: string,
+  hasInfo: boolean
+}
+
+let opts: keyof Options
+
+// opts имеет тип "url" | "token" | "hasInfo"
+```
+
+Оператор `in keyof` циклически перебирает все свойства в идентификаторе, стоящем после себя (`T`).
+
+В этом примере мы делаем все свойства `Animal` необязательными
+```typescript
+interface Animal {
+  extinct: boolean;
+  race: string;
+}
+
+type Optional<T> = { [K in keyof T]?: T[K] };
+
+const animal: Optional<Animal> = {
+  extinct: true
+};
 ```
 
 </p>
