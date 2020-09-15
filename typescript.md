@@ -145,3 +145,22 @@ type ThreeDogProps = {
 
 ---
 
+##### Что такое `declare`?
+
+<details><summary><b>Ответ</b></summary>
+<p>
+
+Ключевое слово `declare` используется для объявления типа функции или переменной.
+
+```typescript
+// Объявление JQuery
+declare function $(selector: string): any
+
+// Объявление стороннего API у которого разработчики еще не написали типы
+declare const vkAPI: any
+``` 
+
+</p>
+</details>
+
+---
