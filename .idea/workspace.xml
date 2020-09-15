@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af46258c-5be0-4a2d-add1-c0fd5504976a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/typescript.md" beforeDir="false" afterPath="$PROJECT_DIR$/typescript.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Orbita/app" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -56,7 +56,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600113317723</updated>
-      <workItem from="1600113318774" duration="4164000" />
+      <workItem from="1600113318774" duration="4203000" />
+      <workItem from="1600153161468" duration="31000" />
     </task>
     <servers />
   </component>
@@ -73,12 +74,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="191" y="146" key="#Live_Templates" timestamp="1600113522875">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="191" y="146" key="#Live_Templates/0.0.1920.1040@0.0.1920.1040" timestamp="1600113522875" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1600153190676">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600153190676" />
     <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1600113450352">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

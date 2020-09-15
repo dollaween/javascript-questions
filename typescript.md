@@ -126,3 +126,22 @@ type ThreeDogProps = {
 </details>
 
 ---
+
+##### Как добавить сторонние типы других разработчиков на проект?
+
+<details><summary><b>Ответ</b></summary>
+<p>
+
+Типы сторонних разработчиков можно найти здесь:
+
+[https://www.typescriptlang.org/dt/search](https://www.typescriptlang.org/dt/search)
+
+Установить пакет с типами можно так:
+
+`npm add @types/react`
+
+</p>
+</details>
+
+---
+
