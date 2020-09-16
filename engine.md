@@ -206,7 +206,7 @@ button.click()
 
 ---
 
-##### 11. В чем отличие `Event Loop` в браузере и `Node.js`?
+##### 11. В чем отличие Event Loop в браузере и Node.js?
 <details><summary><b>Ответ</b></summary>
 <p>
 
