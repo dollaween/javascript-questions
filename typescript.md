@@ -167,6 +167,7 @@ const animal: Optional<Animal> = {
 </p>
 </details>
 
+
 ---
 
 ##### Что такое утиная типизация и как она работает?
