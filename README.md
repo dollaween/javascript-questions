@@ -1,3 +1,11 @@
+<div align="center">
+
+<h1>Вопросы по Javascript</h1>
+
+<b>Смотрите также:</b>
+<a href="https://github.com/dollaween/javascript-tests">Тесты</a> | <a href="https://github.com/dollaween/javascript-tasks">Задачи</a>
+
+</div>
 # Вопросы по Javascript
 
 Категории вопросов:
