@@ -6,9 +6,8 @@
 <a href="https://github.com/dollaween/javascript-tests">Тесты</a> | <a href="https://github.com/dollaween/javascript-tasks">Задачи</a>
 
 </div>
-# Вопросы по Javascript
 
-Категории вопросов:
+## Категории вопросов:
 * [Движок](./engine.md)
 * [Переменные и типы](./types.md)
 * [Операторы](./operators.md)
