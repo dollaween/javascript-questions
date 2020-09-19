@@ -2,6 +2,8 @@
 
 <h1>Вопросы по Javascript</h1>
 
+<p>Проверьте ваши знания</p>
+
 <b>Смотрите также:</b>
 <a href="https://github.com/dollaween/javascript-tests">Тесты</a> | <a href="https://github.com/dollaween/javascript-tasks">Задачи</a>
 
