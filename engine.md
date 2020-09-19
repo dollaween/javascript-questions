@@ -339,8 +339,8 @@ foo(2)
 ---
 
 Ссылки:
-* [Замыкания, функции изнутри / learn.javascript.ru](https://learn.javascript.ru/closures)
-* [Контекст выполнения и стек вызовов в Javascript / habr.com](https://habr.com/ru/company/ruvds/blog/422089/)
+* [Замыкания, функции изнутри](https://learn.javascript.ru/closures) / learn.javascript.ru
+* [Контекст выполнения и стек вызовов в Javascript](https://habr.com/ru/company/ruvds/blog/422089/) / habr.com
 * [Вы не знаете JS. Области видимости и замыкания. Часть 1 / medium.com](https://medium.com/@Dimetrio89/вы-не-знаете-js-область-видимости-и-замыкания-часть-1-17f305c79785)
 * [Управление памятью / mdn](https://developer.mozilla.org/ru/docs/Web/JavaScript/Memory_Management)
 * [4 вида утечек памяти в JavaScript и как с ними бороться / habr.com](https://habr.com/ru/post/309318/)
