@@ -165,3 +165,70 @@ console.log('length' in colors)
 
 ---
 
+##### 7. Как работает оператор `for...in`?
+
+<details><summary><b>Ответ</b></summary>
+<p>
+
+Оператор `for...in` проходит по всем перечислимым свойствам объекта.
+
+```javascript
+const colors = {
+  red: '#ff0000',
+  green: '#00ff00',
+  blue: '#0000ff'
+}
+
+for (let prop in colors) {
+  console.log(`${prop}: ${colors[prop]}`)
+}
+
+/**
+ * red: #ff0000
+ * green: #00ff00
+ * blue: #0000ff
+ */
+
+const colors = ['red', 'green', 'blue']
+
+for (let key in colors) {
+  console.log(`${key}: ${colors[key]}`);
+}
+
+/**
+ * 0: red
+ * 1: green
+ * 2: blue
+ */
+```
+
+</p>
+</details>
+
+---
+
+##### 8. Как работает оператор `for...of`?
+
+<details><summary><b>Ответ</b></summary>
+<p>
+
+Оператор `for...of` создает цикл, проходящий по перечислимым объектам (включая Array, Map, Set, arguments).
+
+```javascript
+let names = ['Sara', 'Lara', 'Dana'];
+
+for (let name of names) {
+  console.log(name);
+}
+
+/**
+ * Sara
+ * Lara
+ * Dana
+ */
+```
+
+</p>
+</details>
+
+---
