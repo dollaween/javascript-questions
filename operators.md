@@ -37,3 +37,26 @@ console.log(user.name, user.age)      // 'John', 33
 
 ---
 
+##### 2. Как работает оператор `typeof`?
+
+<details><summary><b>Ответ</b></summary>
+<p>
+
+Оператор `typeof` возвращает строку, указывающую тип операнда.
+
+```javascript
+console.log( typeof 'Margarita' )
+// string
+
+console.log( typeof 18 )
+// number
+
+console.log( typeof null )
+// object
+```
+
+</p>
+</details>
+
+---
+
