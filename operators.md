@@ -134,5 +134,34 @@ try {
 </p>
 </details>
 
+---
+
+##### 6. Как работает оператор `in`?
+
+<details><summary><b>Ответ</b></summary>
+<p>
+
+Оператор `in` возвращает `true`, если свойство содержится в объекте или его цепочки прототипов.
+
+```javascript
+const colors = {
+  red: '#ff0000',
+  green: '#00ff00',
+  blue: '#0000ff'
+}
+
+console.log('red' in colors)
+// true
+
+console.log('hasOwnProperty' in colors)
+// true
+
+console.log('length' in colors)
+// false, у объектов нет свойства length
+```
+
+</p>
+</details>
 
 ---
+
