@@ -188,7 +188,11 @@ for (let prop in colors) {
  * green: #00ff00
  * blue: #0000ff
  */
+```
 
+У массивов, в качестве свойства, будет взят индекс элемента в массиве.
+
+```javascript
 const colors = ['red', 'green', 'blue']
 
 for (let key in colors) {
