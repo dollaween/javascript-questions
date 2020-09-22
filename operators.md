@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>Javascript. Вопросы по операторам</h1>
+<h1>Javascript. Выражения и операторы</h1>
 
 <a href="https://github.com/dollaween/javascript-questions">На главную</a> | <a href="https://github.com/dollaween/javascript-tests">Тесты</a> | <a href="https://github.com/dollaween/javascript-tests">Задачи</a>
 
@@ -43,6 +43,10 @@ console.log(user.name, user.age)      // 'John', 33
 <p>
 
 Оператор `typeof` возвращает строку, указывающую тип операнда.
+
+`typeof null` — `object`, общепризнанная ошибка в языке, сохраняется для совместимости.
+
+`typeof function() {}` — `function`, хотя функция является подвидом объектов, а не отдельным типом данных.
 
 ```javascript
 console.log(typeof 'Margarita')
@@ -87,3 +91,48 @@ console.log(turle instanceof Object)
 
 ---
 
+##### 4. Как работает ключевое слово `super`?
+
+<details><summary><b>Ответ</b></summary>
+<p>
+
+`super` используется для вызова функций, принадлежащих родителю объекта.
+
+```javascript
+// Вызов родительского конструктора
+super([arguments])
+
+// Вызов функции родительского объекта
+super.functionOnParent()
+```
+</p>
+</details>
+
+---
+
+##### 5. Как работает свойство `new.target`?
+
+<details><summary><b>Ответ</b></summary>
+<p>
+
+Свойство `new.target` позволяет определить была ли функция или конструктор вызвана с помощью оператора `new`.
+
+```javascript
+function Car() {
+  if (!new.target) {
+    throw new Error('Function must be called with new!')
+  }
+}
+
+try {
+  Car()
+} catch(err) {
+  console.log(err)
+}
+```
+
+</p>
+</details>
+
+
+---
