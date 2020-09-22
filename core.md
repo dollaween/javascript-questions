@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>Javascript. Вопросы по движку</h1>
+<h1>Вопросы по Javascript: Ядро</h1>
 
 <a href="https://github.com/dollaween/javascript-questions">На главную</a> | <a href="https://github.com/dollaween/javascript-tests">Тесты</a> | <a href="https://github.com/dollaween/javascript-tests">Задачи</a>
 
@@ -352,6 +352,29 @@ foo(2)
 `function` — объявляет функцию и инициализирует её (благодаря тому, как работает контекст выполнения).
 
 `let`, `const`, `class` — только объявляет переменную.
+
+</p>
+</details>
+
+---
+
+##### 16. Что такое затенение переменных?
+
+<details><summary><b>Ответ</b></summary>
+<p>
+
+**Затенение переменных** — когда переменная, объявленная в определенной области имеет то же имя, что и переменная, объявленная во внешней области.
+
+```javascript
+var currency = 'euro'
+
+function showMeTheMoney() {
+  var currency = 'ruble'
+  console.log(currency)
+}
+
+showMeTheMoney()
+```
 
 </p>
 </details>
