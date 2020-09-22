@@ -8,7 +8,26 @@
 
 ---
 
+##### 1. Что такое затенение свойств (property shadowing)?
 
+<details><summary><b>Ответ</b></summary>
+<p>
+
+**Затенение переменных (property shadowing)** — когда переменная, объявленная в определенной области имеет то же имя, что и переменная, объявленная во внешней области.
+
+```javascript
+var currency = 'euro'
+
+function showMeTheMoney() {
+  var currency = 'ruble'
+  console.log(currency)
+}
+
+showMeTheMoney()
+```
+
+</p>
+</details>
 
 ---
 
