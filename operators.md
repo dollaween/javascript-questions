@@ -45,14 +45,41 @@ console.log(user.name, user.age)      // 'John', 33
 Оператор `typeof` возвращает строку, указывающую тип операнда.
 
 ```javascript
-console.log( typeof 'Margarita' )
+console.log(typeof 'Margarita')
 // string
 
-console.log( typeof 18 )
+console.log(typeof 18)
 // number
 
-console.log( typeof null )
+console.log(typeof null)
 // object
+```
+
+</p>
+</details>
+
+---
+
+##### 3. Как работает оператор `instanceof`?
+
+<details><summary><b>Ответ</b></summary>
+<p>
+
+Оператор `instanceof` проверяет, принадлежит ли объект к определенному классу.
+
+```javascript
+function Turtle(name, color) {
+  this.name = name
+  this.color = color
+}
+
+const turle = new Turtle('Leo', 'blue')
+
+console.log(turle instanceof Turtle)
+// true
+
+console.log(turle instanceof Object)
+// true
 ```
 
 </p>
