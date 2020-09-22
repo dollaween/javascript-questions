@@ -1,8 +1,6 @@
 <div align="center">
 
-<h3>Вопросы по Javascript</h3>
-<h1>Выражения и операторы</h1>
-<br/>
+<h1>Вопросы по Javascript. Выражения и операторы</h1>
 
 <a href="https://github.com/dollaween/javascript-questions">На главную</a> | <a href="https://github.com/dollaween/javascript-tests">Тесты</a> | <a href="https://github.com/dollaween/javascript-tests">Задачи</a>
 
