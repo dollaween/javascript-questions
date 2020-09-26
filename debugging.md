@@ -28,7 +28,7 @@ buggyFunction();
 
 ---
 
-##### 2. Как работать со вкладкой "Source" в Chrome Dev Tools?
+##### 2. Какие инструменты есть на вкладке "Source" в Chrome Dev Tools?
 
 <details><summary><b>Ответ</b></summary>
 <p>
@@ -38,7 +38,7 @@ buggyFunction();
 2. Работать с **Event Listeners**.
 3. Смотреть **Scope** функции.
 4. Смотреть **Call Stack**.
-5. Следить за переменными во вкладке **Watch**
+5. Следить за переменными во вкладке **Watch**.
 
 </p>
 </details>
