@@ -15,6 +15,7 @@
 * [Выражения и операторы](./operators.md)
 * [Функции](./functions.md)
 * [Объекты](./objects.md)
+* [Дебаггинг](./debugging.md)
 * [Оптимизация](./optimization.md)
 * [Typescript](./typescript.md)
 * [Вопросы по пакетам и либам](./packages.md)
