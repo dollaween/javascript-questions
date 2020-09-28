@@ -400,6 +400,48 @@ showMeTheMoney()
 
 ---
 
+##### 18. В чем отличие между `e.target` и `e.currentTarget`?
+
+<details><summary><b>Ответ</b></summary>
+<p>
+
+`e.target` — это исходный элемент, на котором произошло событие, в процессе всплытия он неизменен.
+
+`e.currentTarget` — это текущий элемент, до которого дошло всплытие.
+
+```html
+<div id="container">
+  <div id="video">
+    <button id="button">Play!</button>
+  </div>
+</div>
+```
+
+```javascript
+container.addEventListener('click', fn);
+video.addEventListener('click', fn);
+button.addEventListener('click', fn);
+
+function fn(e) {
+  console.log(e.target, e.currentTarget);
+}
+```
+```javascript
+<button id="button">Play!</button>
+<button id="button">Play!</button>
+
+<button id="button">Play!</button>
+<div id="video"></div>
+
+<button id="button">Play!</button>
+<div id="container"></div>
+```
+
+</p>
+</details>
+
+---
+
 Ссылки:
 * [Замыкания, функции изнутри](https://learn.javascript.ru/closures)
 * [Контекст выполнения и стек вызовов в Javascript](https://habr.com/ru/company/ruvds/blog/422089/)
