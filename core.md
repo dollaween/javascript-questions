@@ -426,7 +426,9 @@ function fn(e) {
   console.log(e.target, e.currentTarget);
 }
 ```
-```javascript
+
+В консоль будет выведено:
+```html
 <button id="button">Play!</button>
 <button id="button">Play!</button>
 
