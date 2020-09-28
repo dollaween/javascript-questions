@@ -381,7 +381,7 @@ showMeTheMoney()
 
 ---
 
-##### 17. Что такое всплытие и перехват событий?
+##### 17. Что такое всплытие (Event Bubbling) и перехват событий (Event Capturing)?
 
 <details><summary><b>Ответ</b></summary>
 <p>
