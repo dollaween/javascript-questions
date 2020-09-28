@@ -60,3 +60,71 @@ buggyFunction()
 </details>
 
 ---
+
+##### 4. Как можно дебажить при помощи `console`?
+
+<details><summary><b>Ответ</b></summary>
+<p>
+
+У `console` есть несколько методов, которые помогают в дебаге.
+
+`console.dir()` — отображает список свойств указанного объекта или функции.
+```javascript
+const f = function() {}
+f.prototype.add = () => {}
+
+console.dir(f);
+```
+```javascript
+arguments: null
+caller: null
+length: 0
+name: "f"
+prototype: {add: ƒ, constructor: ƒ}
+__proto__: ƒ ()
+[[FunctionLocation]]: app.js:3
+[[Scopes]]: Scopes[2]
+```
+
+`console.table()` — отображает наборы данных в виде таблицы. Вторым аргументом принимает массив с названиями колонок, которые необходимо отобразить.
+
+```javascript
+const arr = [
+  { id: 1, name: 'Jon', age: 33, color: 'green' }
+];
+
+console.table(arr, ['name', 'age']);
+```
+```javascript
+(index) | name  | age
+--------------------
+0       | "Jon" | 33
+```
+
+`console.time()` — запускает таймер, который можно использовать для определения, сколько времени занимает выполнение той или иной операции.
+`console.timeEnd()` — останавливает таймер и выводит результат.
+
+```javascript
+console.time()
+
+let arr = []
+for (let i = 0; i < 1e6; i++) {
+  arr.push(i)
+}
+
+console.timeEnd()
+```
+```javascript
+default: 15.090087890625 ms
+```
+
+`console.trace()` — показывает стэк трейс до текущей функции.
+
+```javascript
+inner
+outer
+(anonymous)
+```
+
+</p>
+</details>
