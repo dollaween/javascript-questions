@@ -97,7 +97,7 @@ console.table(arr, ['name', 'age']);
 ```
 ```javascript
 (index) | name  | age
---------------------
+---------------------
 0       | "Jon" | 33
 ```
 
