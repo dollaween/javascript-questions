@@ -8,7 +8,23 @@
 
 ---
 
-##### 1. Что такое `localStorage` и `sessionStorage`? В чем между ними разница?
+##### 1. Для чего нужен Web Storage API?
+
+<details><summary><b>Ответ</b></summary>
+<p>
+
+**Web Storage API** предоставляет механизмы при помощи которых браузеры могут безопасно хранить пары ключ/значение.
+
+Web Storage API расширяет объект `window`, добавляя в него:
+* `window.sessionStorage`
+* `window.localStorage`
+
+</p>
+</details>
+
+---
+
+##### 2. Что такое `localStorage` и `sessionStorage`? В чем между ними разница?
 
 <details><summary><b>Ответ</b></summary>
 <p>
