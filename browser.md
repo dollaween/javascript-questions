@@ -55,7 +55,7 @@ Web Storage API расширяет объект `window`, добавляя в н
 <details><summary><b>Ответ</b></summary>
 <p>
 
-`document.cookie` — это небольшие строки данных, которые хранятся в браузере в виде `ключ=значение;`. Куки обычно устанавливаются сервером при помощи заголовка `Set-Cookie`. Затем браузер будет автоматически добавлять их почти в каждый запрос на тот же домен при помощи заголовка `Cookie`.
+`document.cookie` — это небольшие строки данных, которые хранятся в браузере в виде пары `ключ=значение;`. Куки обычно устанавливаются сервером при помощи заголовка `Set-Cookie`. Затем браузер будет автоматически добавлять их почти в каждый запрос на тот же домен при помощи заголовка `Cookie`.
 
 Пример `document.cookie`:
 ```javascript
@@ -76,3 +76,4 @@ document.cookie = "login=Batman; path=/; expires=Tue, 01 Jan 2047 01:23:45 GMT"
 
 Ссылки:
 * [Куки, document.cookie](https://learn.javascript.ru/cookie)
+* [LocalStorage, sessionStorage](https://learn.javascript.ru/localstorage)
