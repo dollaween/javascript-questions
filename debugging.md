@@ -72,7 +72,7 @@ buggyFunction()
 ```javascript
 const f = function() {}
 f.prototype.add = () => {}
-
+Ў
 console.dir(f);
 ```
 ```javascript
