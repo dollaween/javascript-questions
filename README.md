@@ -17,5 +17,6 @@
 * [Объекты](./objects.md)
 * [Дебаггинг](./debugging.md)
 * [Оптимизация](./optimization.md)
+* [Браузер](./browser.md)
 * [Typescript](./typescript.md)
 * [Вопросы по пакетам и либам](./packages.md)
