@@ -127,5 +127,22 @@ outer
 (anonymous)
 ```
 
+`console.count()` — выводит число, равное тому, сколько раз была вызвана конкретная функция `count()`.
+
+```javascript
+function iteration() {
+  console.count('iteration')
+}
+
+iteration()
+iteration()
+iteration()
+```
+```javascript
+iteration: 1
+iteration: 2
+iteration: 3
+```
+
 </p>
 </details>

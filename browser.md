@@ -74,6 +74,18 @@ document.cookie = "login=Batman; path=/; expires=Tue, 01 Jan 2047 01:23:45 GMT"
 
 ---
 
+##### 4. Что такое IndexedDB?
+
+<details><summary><b>Ответ</b></summary>
+<p>
+
+**IndexedDB** — это низкоуровневое API для клиентского хранилища большого объема структурированных данных, включая файлы/blobs. Эти API используют индексы для обеспечения высоко-производительного поиска данных.
+
+</p>
+</details>
+
+---
+
 Ссылки:
 * [Куки, document.cookie](https://learn.javascript.ru/cookie)
 * [LocalStorage, sessionStorage](https://learn.javascript.ru/localstorage)
