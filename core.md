@@ -444,7 +444,7 @@ function fn(e) {
 
 ---
 
-19. Что такое `localStorage` и `sessionStorage`? В чем между ними разница?
+##### 19. Что такое `localStorage` и `sessionStorage`? В чем между ними разница?
 
 <details><summary><b>Ответ</b></summary>
 <p>
