@@ -18,5 +18,6 @@
 * [Дебаггинг](./debugging.md)
 * [Оптимизация](./optimization.md)
 * [Браузер](./browser.md)
+* [Бинарные данные](./binary.md)
 * [Typescript](./typescript.md)
 * [Вопросы по пакетам и либам](./packages.md)
