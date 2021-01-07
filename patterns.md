@@ -93,10 +93,12 @@ class StrategyCompanyB {
   }
 }
 
+// Задаем стратегию компании А
 const delivery = new Delivery(new StrategyCompanyA)
 console.log(delivery.calculate(1000))
 // => 2000
 
+// Задаем стратегию компании B
 delivery.setStrategy(new StrategyCompanyB)
 console.log(delivery.calculate(1000))
 // => 3000
