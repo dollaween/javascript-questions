@@ -111,3 +111,46 @@ console.log(delivery.calculate(1000))
 
 ---
 
+##### 3. Объясните принцип работы паттерна "Итератор"? Приведите пример.
+
+<details><summary><b>Ответ</b></summary>
+<p>
+
+**Паттерн "Итератор"** — дает возможность последовательно обходить элементы составных объектов, не раскрывая их внутреннего представления.
+
+```javascript
+class Iterator {
+  constructor(items) {
+    this.items = items
+    this.index = 0
+  }
+
+  // Проверяет наличие следующего элемента в коллекции
+  hasNext() {
+    return this.index < this.items.length
+  }
+
+  // Возвращает следующий элемент коллекции
+  next() {
+    return this.items[this.index++]
+  }
+}
+
+const items = ['one', 'two', 'three', 'four']
+const iterator = new Iterator(items)
+
+while (iterator.hasNext()) {
+  console.log(iterator.next())
+}
+// => 'one'
+// => 'two'
+// => 'three'
+// => 'four'
+```
+
+[Итератор](https://refactoring.guru/ru/design-patterns/iterator)
+
+</p>
+</details>
+
+---
