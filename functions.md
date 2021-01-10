@@ -36,3 +36,26 @@
 
 ---
 
+##### 3. Что такое рекурсия?
+<details><summary><b>Ответ</b></summary>
+<p>
+
+**Рекурсия** — это когда функция вызывает саму себя.
+
+Пример рекурсивной функции, где высчитывается сумма всех чисел от 1 до указанного:
+```js
+function sumNumbers(num) {
+  if (num === 1) return 1
+
+  return num + sumNumbers(num - 1)
+}
+
+const result = sumNumbers(5)
+console.log(result)
+// => 15, так как 1 + 2 + 3 + 4 + 5 === 15
+```
+
+</p>
+</details>
+
+---
