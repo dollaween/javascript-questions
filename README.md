@@ -16,7 +16,7 @@
 * [Функции](./functions.md)
 * [Объекты](./objects.md)
 * [Дебаггинг](./debugging.md)
-* [Оптимизация](./optimization.md)
+* [Алгоритмы и оптимизация](./optimization.md)
 * [Браузер](./browser.md)
 * [Бинарные данные](./binary.md)
 * [Паттерны проектирования](./patterns.md)
