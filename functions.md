@@ -42,6 +42,41 @@
 
 **Рекурсия** — это когда функция вызывает саму себя.
 
+Примеры, где используется рекурсия:
+* JSON.parse / JSON.stringify (Mozilla's Rhino JsonParser)
+* document.getElementById и обход дерева DOM
+* Обход объектов
+
+Рецепт написания рекурсии:
+1. Написать условие выхода из рекурсии
+2. ...какое-либо изменение...
+3. Написать вызов функции самой себя
+
+##### Базовый паттер рекурсии
+```js
+function recursion(args) {
+  // условие выхода
+  return recursion(args--)
+}
+```
+
+##### Паттерн рекурсии с внутренней функцией-рекурсией
+```js
+function wrapper(args) {
+  let scope = {}
+
+  function recursion(args) {
+    // Изменяем scope
+    recursion(args--)
+  }
+
+  recursion()
+
+  return scope
+}
+```
+
+##### Пример
 Пример рекурсивной функции, где высчитывается сумма всех чисел от 1 до указанного:
 ```js
 function sumNumbers(num) {
