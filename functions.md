@@ -55,7 +55,7 @@
 ##### Базовый паттер рекурсии
 ```js
 function recursion(args) {
-  // условие выхода
+  // Условие выхода
   return recursion(args--)
 }
 ```
