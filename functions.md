@@ -66,6 +66,7 @@ function wrapper(args) {
   let scope = {}
 
   function recursion(args) {
+    // Пишем условие выхода
     // Изменяем scope
     recursion(args--)
   }
