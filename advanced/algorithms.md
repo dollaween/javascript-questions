@@ -169,8 +169,25 @@ function same(arr1, arr2) {
 #### Пример 2:
 Пример второго вида реализации:
 
-```js
+Напишите функцию, которая принимает массив чисел `nums` и число `target`. Функция должна найти и вернуть индексы двух чисел, сумма которых равна числу `target`.
 
+```js
+function twoSum(nums, target) {
+  const freqCounter = {}
+
+  for (let i = 0; i < nums.length; i++) {
+    const cur = freqCounter[nums[i]]
+
+    if (cur >= 0) {
+      return [cur, i]
+    } else {
+      const numToFind = target - nums[i]
+      freqCounter[numToFind] = i
+    }
+  }
+
+  return null
+}
 ```
 
 </p>
