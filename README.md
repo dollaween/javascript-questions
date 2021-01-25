@@ -12,6 +12,7 @@
 ### Вопросы продвинутого уровня
 
 * [Алгоритмы](./advanced/algorithms.md)
+* [Сортировка](./advanced/sorting.md)
 
 ---
 
