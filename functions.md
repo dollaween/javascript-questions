@@ -12,7 +12,7 @@
 <details><summary><b>Ответ</b></summary>
 <p>
 
-**Частичное применение функций** — предоставление функции с меньшим количеством аргументов, чем она ожидает.
+**Частичное применение функций** — предоставление функции меньшего количества аргументов, чем она ожидает.
 
 [Частичное применение функций](https://medium.com/devschacht/functional-reactive-ninja-partial-application-of-functions-99fc21d629ff)
 
@@ -98,3 +98,38 @@ console.log(result)
 </details>
 
 ---
+
+
+##### 4. Что такое анонимная функция?
+<details><summary><b>Ответ</b></summary>
+<p>
+
+**Анонимная функция** — это функция, у которой после `function` нет идентификатора.
+
+Примеры анонимных функций:
+```js
+function() {}
+const myFunc1 = function() {}
+const myFunc2 = new Function() 
+const myObject = {
+  methodD(){},
+  [property](){}
+}
+```
+
+Стрелочные функции всегда анонимны.
+```js
+() => {}
+```
+
+Анонимная функция может иметь имя, но при этом все равно являться анонимной:
+```js
+const myFunc = function() { }
+console.log(myFunc.name)        // `myFunc`
+```
+
+</p>
+</details>
+
+---
+
