@@ -148,6 +148,22 @@ console.log(myFunc.name)        // `myFunc`
 })()
 ```
 
+Переменные, внутри функции не могут быть использованы за её пределами:
+```js
+(function() {
+  var name = 'dollaween'
+})()
+name // throws "Uncaught ReferenceError: name is not defined"
+```
+
+Переменная, которой присвоено IIFE, хранит в себе результат выполнения функции, но не саму функцию:
+```js
+var result = (function () {
+  return 'dollaween'
+})()
+result // 'dollaween'
+```
+
 </p>
 </details>
 
