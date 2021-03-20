@@ -226,7 +226,7 @@ const args = Array.from(arguments)
 const args = [...arguments]
 ```
 
-*Предпочтительнее использовать rest параметры*.
+*Вместо `arguments` предпочтительнее использовать rest параметры*.
 
 </p>
 </details>
