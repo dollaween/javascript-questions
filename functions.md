@@ -382,3 +382,22 @@ console.log(gen.next().value) // undefined
 </details>
 
 ---
+
+##### 12. Как работает ключевое слово `super`?
+<details><summary><b>Ответ</b></summary>
+<p>
+
+Ключевое слово `super` используется для вызова функций, принадлежащих родителю объекта.
+
+```js
+// Вызов родительского конструктора
+super([arguments])
+
+// Вызов функции родительского объекта
+super.functionOnParent()
+```
+
+</p>
+</details>
+
+---
