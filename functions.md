@@ -8,11 +8,11 @@
 
 ---
 
-##### 1. Что такое частичное применение функций?
+##### 1. Что такое частичное применение функций (Partial Application)?
 <details><summary><b>Ответ</b></summary>
 <p>
 
-**Частичное применение функций** — это применение к функции некоторых аргументов и возврат новой функции, в ожидании остальных аргументов.
+**Частичное применение функций (Partial Application)** — это применение к функции некоторых аргументов и возврат новой функции, в ожидании остальных аргументов.
 
 С помощью каррирования мы можем добиться подобного эффекта путем фиксирования нескольких входных параметров:
 ```js
@@ -36,7 +36,8 @@ const multiply2 = multiply.bind(null, 2)
 console.log(multiply2(3)) // 6
 ```
 
-[Частичное применение функций](https://medium.com/devschacht/functional-reactive-ninja-partial-application-of-functions-99fc21d629ff)
+* [Частичное применение функций](https://medium.com/devschacht/functional-reactive-ninja-partial-application-of-functions-99fc21d629ff)
+* [Частичное применение или partial application в JavaScript](https://frontend-stuff.com/blog/partial-application/)
 
 </p>
 </details>
