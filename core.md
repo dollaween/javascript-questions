@@ -484,6 +484,21 @@ function fn(e) {
 
 ---
 
+
+##### 20. Что такое VariableEnvironment?
+
+<details><summary><b>Ответ</b></summary>
+<p>
+
+**VariableEnvironment** — объект, который хранит переменные окружения, в котором он находится.
+
+* [JavaScript/TypeScript Internals: Execution vs. Lexical vs. Variable Environment](https://medium.com/@bdov_/javascript-typescript-execution-vs-lexical-vs-variable-environment-37ff3f264831)
+
+</p>
+</details>
+
+---
+
 Ссылки:
 * [Замыкания, функции изнутри](https://learn.javascript.ru/closures)
 * [Контекст выполнения и стек вызовов в Javascript](https://habr.com/ru/company/ruvds/blog/422089/)
@@ -491,3 +506,4 @@ function fn(e) {
 * [Управление памятью](https://developer.mozilla.org/ru/docs/Web/JavaScript/Memory_Management)
 * [4 вида утечек памяти в JavaScript и как с ними бороться](https://habr.com/ru/post/309318/)
 * [Поднятие](https://developer.mozilla.org/ru/docs/Словарь/Поднятие)
+* [JavaScript/TypeScript Internals: Execution vs. Lexical vs. Variable Environment](https://medium.com/@bdov_/javascript-typescript-execution-vs-lexical-vs-variable-environment-37ff3f264831)
