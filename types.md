@@ -1,8 +1,12 @@
 <div align="center">
 
-<h1>Javascript. Вопросы по переменным и типам</h1>
+# Вопросы по переменным и типам
 
-<a href="https://github.com/dollaween/javascript-questions">На главную</a> | <a href="https://github.com/dollaween/javascript-tests">Тесты</a> | <a href="https://github.com/dollaween/javascript-tasks">Задачи</a>
+[Вопросы](https://github.com/dollaween/javascript-questions)
+|
+[Тесты](https://github.com/dollaween/javascript-tests)
+|
+[Задачи](https://github.com/dollaween/javascript-tasks)
 
 </div>
 
